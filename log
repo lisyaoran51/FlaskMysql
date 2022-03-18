@@ -1,0 +1,16 @@
+https://www.youtube.com/watch?v=hQl2wyJvK5k&list=PLCC34OHNcOtolz2Vd9ZSeSXWc8Bq23yEz&index=9
+
+python -m venv virt
+virt\Scripts\activate
+pip install flask
+touch hello.py
+(sublime)
+
+export FLASK_ENV=development
+(set FLASK_ENV=development)
+
+export FLASK_APP=hello.py
+(set FLASK_APP=hello.py)
+
+flask run
+http://localhost:5000/
